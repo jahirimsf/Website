@@ -1,0 +1,15 @@
+/* This CSS for small Mobile*/
+@media (max-width: 767px) {
+}
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+}
+
+/* This CSS for Medium Devices */
+@media (min-width: 992px) {
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+}

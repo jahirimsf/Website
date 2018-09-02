@@ -1,0 +1,114 @@
+body{
+	
+}
+.float_left{float:left;}
+.float_right{float:right;}
+.clear_both{clear:both;}
+/*----Header Area Css------*/
+
+.header_area{}
+.header_area .header{
+	background:url('img/header.jpg');
+	min-height:300px;
+}
+.header_area .header h2{
+	color: #fff;
+	font-family: arial;
+	font-weight: 600;
+	margin: 0;
+	padding-top: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*-------END-------------*/
+
+/*----Menu Area Css------*/
+.menu_area{}
+.menu{}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	background:#FFF;
+	color:#000;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background:#FFF;
+	color:#000;
+}
+/*-------END-------------*/
+
+/*----Contain Area Css------*/
+.contain_area{}
+.contain_area .all_containt{}
+.contain_area .all_containt .single_post{
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 1px 1px 6px #d2d2d2;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.contain_area .all_containt .single_post h2{
+	border-bottom: 1px solid #ddd;
+	color: #000;
+	font-family: arial;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 24px;
+	padding-bottom: 15px;
+}
+.contain_area .all_containt .single_post img{
+	border: 8px solid #fff;
+	box-shadow: 0 0 4px #000;
+	float: left;
+	height: 200px;
+	margin-bottom: 15px;
+	margin-right: 25px;
+	width: 320px;
+}
+.contain_area .all_containt .single_post p{
+	color: #9b9b9b;
+	font-family: arial;
+}
+.contain_area .all_containt .single_post a{
+	background: none repeat scroll 0 0 #000;
+	border-radius: 5px;
+	color: #fff;
+	float: right;
+	margin-right: 20px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+.contain_area .all_containt .single_post a:hover{}
+.contain_area .side_bar{}
+/*-------END-------------*/
+
+/*----footer Area Css------*/
+.welcome_area{}
+.welcome_area .welcome{}
+.welcome_area .welcome h2{
+	font-family:Broadway,Adobe Fan Heiti Std B,Blackoak Std ;
+	font-size: 26px;
+	padding: 30px 0;
+}
+
+/*---- END ------*/
+
+/*----footer Area Css------*/
+.footer_area{
+	background:#333333;
+	min-height:180px;
+}
+.footer_area .footer{
+	text-align: center;
+	padding-top: 60px;
+	text-align: center;
+}
+.footer_area .footer a{
+	padding: 0 10px;
+}
+.footer_area p{
+	color: #fff;
+	font-family: arial;
+	font-size: 13px;
+	padding-top: 20px;
+	text-align: center;
+}
+/*-------END-------------*/
